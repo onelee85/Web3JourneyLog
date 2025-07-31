@@ -1,6 +1,6 @@
 # Web3 Journey Log
 This is a journey log for Web3.
-See：[Roadmap](https://roadmap.sh/blockchain)
+[Roadmap](https://roadmap.sh/blockchain)
 
 ## 区块链的基础知识
 - 区块链基础
@@ -34,3 +34,10 @@ See：[Roadmap](https://roadmap.sh/blockchain)
 ### Oracles 区块链预言机
 区块链预言机是一种将智能合约与外部世界连接起来的第三方服务，主要是从外部世界输入信息，但也可以反过来。 来自世界的信息封装了多个来源，以便获得分散的知识。
 - Chainlink 是一个去中心化的预言机网络，它使智能合约能够安全地与存在于区块链网络之外的真实世界数据和服务进行交互
+
+## 智能合约
+智能合约是一种基于区块链的程序或者交易协议，它可以自动执行合约条款。智能合约可以存储数字资产、执行合约条款、管理数字资产的转移、触发事件等。
+### 智能合约框架
+- Hardhat 是一个以太坊开发环境。 它允许用户编译合约并在开发网络上运行它们。 获取 Solidity 堆栈跟踪、console.log 等。
+- Truffle 是一个用于开发、编译、部署和管理以太坊智能合约的框架。 它可以与其他工具集成，如 Ganache、ZeppelinOS、OpenZeppelin 等。
+- Foundry 是一个基于 Solidity 的智能合约开发环境，它可以帮助开发者快速、高效地开发智能合约。 它提供了一个快速的开发环境，支持 Solidity 语言和其他语言的开发。
