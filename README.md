@@ -41,6 +41,14 @@ This is a journey log for Web3.
 - Hardhat 是一个以太坊开发环境。 它允许用户编译合约并在开发网络上运行它们。 获取 Solidity 堆栈跟踪、console.log 等。
 - Truffle 是一个用于开发、编译、部署和管理以太坊智能合约的框架。 它可以与其他工具集成，如 Ganache、ZeppelinOS、OpenZeppelin 等。
 - Foundry 是一个基于 Solidity 的智能合约开发环境，它可以帮助开发者快速、高效地开发智能合约。 它提供了一个快速的开发环境，支持 Solidity 语言和其他语言的开发。
+### ERC Ethereum Request for Comments
+- ERC20
+    是以太坊区块链上的一种技术标准，用于定义代币如何运行。ERC 代表“Ethereum Request for Comments”，而 20 是提案的编号。作为一种通用协议，ERC-20 允许开发者轻松创建和发行兼容的代币。ERC-20 的设计初衷是解决代币开发和交易中的碎片化问题，通过制定标准化接口，任何符合 ERC-20 规则的代币都可以在以太坊网络中无缝交互。例如，许多知名的加密货币，如 USDT 和 DAI，都基于 ERC-20 标准。
+- EIP Ethereum Improvement Proposal
+    EIP 是以太坊改进提案的缩写，它是一种用于建议和讨论以太坊协议改进的机制。EIP 可以是新的功能、协议变更、标准定义等。每个 EIP 都有一个唯一的编号，例如 EIP-1、EIP-2 等。
+- ERC721代币
+- ERC1155代币
+- ERC777代币
 
 ## 以太坊
 以太坊是一个可编程的区块链平台，能够支持智能合约、dapps（去中心化应用程序）和其他 DeFi 项目。 以太坊本机令牌是以太 (ETH)，它用于推动区块链上的操作。
@@ -60,3 +68,4 @@ This is a journey log for Web3.
     - 攻击者篡改交易数据，使其与之前的交易相同。
     - 攻击者使用之前的交易数据，多次发送交易。
     - **解决方案**： nonce 机制。 区块链上每个交易都有一个唯一的 nonce 值，它是由区块链维护的。当一个交易被打包到区块中时，其 nonce 值会增加。如果一个交易的 nonce 值已经被使用过，那么它将无法被打包到区块中。
+    
